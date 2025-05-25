@@ -11,10 +11,13 @@ This project runs automated tests on LambdaTest's Selenium Grid using TestNG and
 - Gitpod (for development and execution)
 
 ---
+
 ## 🔧 Configure your settings and required capabilities before running the test
 For running the test script, the username and access key from LambdaTest are required.
 
 Visit the following link to get your credentials: https://www.lambdatest.com/capabilities-generator
+
+<br>
 
 ## 📝 Update the properties in the code
 Now, you have your LambdaTest username and access key. It's time to make changes to the file 'LambdaTest.java'.
@@ -22,6 +25,7 @@ Now, you have your LambdaTest username and access key. It's time to make changes
 String username = <YOUR LT_USERNAME> //Replace with your username
 String accessKey = <YOUR LT_ACCESS_KEY> //Replace with your access key
 ```
+<br>
 
 ## 🧪 To run on LambdaTest via local machine setup
 Run the project at the suite level by running testng.xml. This will trigger the parallel runs of LambdaTest.java for **Chrome (v128.0) on Windows 10** and **Edge (v127.0) on MacOS Ventura**.
@@ -31,17 +35,22 @@ Run the project at the suite level by running testng.xml. This will trigger the 
 mvn test -DsuiteXmlFile=testng.xml
 ```
 
+<br>
+
 ## 📊 To see the Test Results
 Once the test run is completed, visit the following URL to see the results: https://automation.lambdatest.com
 
 * Test run on Microsoft Edge (v127.0) with MacOS Ventura: <br>
-
 ![image](https://github.com/user-attachments/assets/b0975503-f9a1-40ed-aa26-850e5617d54f)
 
 * Test run on Chrome (v128.0) with Windows 10: <br>
-
 ![image](https://github.com/user-attachments/assets/c521e8af-fbc2-40b9-bfc8-f6a5a237f577)
 
+### Test IDs for both the runs:
+* Chrome + 128.0 + Windows 10: **1TCFM-C8YU8-GJZTB-3NQVC**
+* Microsoft Edge + 127.0 + macOS Ventura: **BWYOL-TTCUU-XCVKU-SEKHZ**
+
+<br>
 
 ## 📦 To run on LambdaTest via Gitpod
 
@@ -51,7 +60,7 @@ Click the button below to launch the project environment:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ritik-Saxena/LambdaTestAutomation)
 
----
+
 
 ### ▶️ Step 2: Run Tests
 
@@ -59,11 +68,12 @@ Once Gitpod is ready, run the 'parallel' profile mentioned in the pom.xml using 
 ```bash
 mvn test -P parallel
 ```
-<br>
 
 * Finally, the tests ran successfully on GitPod. <br>
 
 ![image](https://github.com/user-attachments/assets/d1ee4721-b12a-4bbb-bd15-a435e5bf4c2b)
+
+<br>
 
 --- 
 If you like this repository, do <img src="https://user-images.githubusercontent.com/62079355/200077014-f3e95bba-57a6-4c7a-b26a-212bf18e5162.png" width=25 height=25> and <img src="https://user-images.githubusercontent.com/62079355/220893415-ea2015e9-6df6-4de2-ab66-041a3f890be2.png" width=25 height=25> the repo for more amazing stuff coming soon.
