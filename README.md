@@ -23,11 +23,16 @@ String username = <YOUR LT_USERNAME> //Replace with your username
 String accessKey = <YOUR LT_ACCESS_KEY> //Replace with your access key
 ```
 
-## 🧪 To run on LambdaTest
+## 🧪 To run on LambdaTest via local machine setup
 Run the project at the suite level by running testng.xml. This will trigger the parallel runs of LambdaTest.java for **Chrome (v128.0) on Windows 10** and **Edge (v127.0) on MacOS Ventura**.
+<br><br>
+**OR** run the following command in the console:
+```bash
+mvn test -DsuiteXmlFile=testng.xml
+```
 
 ## 📊 To see the Test Results
-Once the test run is successfully completed, visit the following URL to see the results: https://automation.lambdatest.com
+Once the test run is completed, visit the following URL to see the results: https://automation.lambdatest.com
 
 * Test run on Microsoft Edge (v127.0) with MacOS Ventura: <br>
 
@@ -38,7 +43,7 @@ Once the test run is successfully completed, visit the following URL to see the 
 ![image](https://github.com/user-attachments/assets/c521e8af-fbc2-40b9-bfc8-f6a5a237f577)
 
 
-## 📦 To Run on Gitpod
+## 📦 To run on LambdaTest via Gitpod
 
 ### 🔗 Step 1: Open the project in Gitpod
 
