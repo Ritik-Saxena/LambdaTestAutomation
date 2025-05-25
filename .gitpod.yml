@@ -1,0 +1,9 @@
+image: maven:3.9-eclipse-temurin-17
+
+tasks:
+  - init: mvn clean install
+    command: mvn test
+
+vscode:
+  extensions:
+    - vscjava.vscode-java-pack
