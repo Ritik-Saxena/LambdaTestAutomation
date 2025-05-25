@@ -75,6 +75,11 @@ mvn test -P parallel
 
 <br>
 
+Now, go back to LambdaTest again and see the latest parallel test execution triggered by Gitpod.
+
+![image](https://github.com/user-attachments/assets/84b1ce98-3da6-498c-a614-e4b713ff5331)
+
+
 --- 
 If you like this repository, do <img src="https://user-images.githubusercontent.com/62079355/200077014-f3e95bba-57a6-4c7a-b26a-212bf18e5162.png" width=25 height=25> and <img src="https://user-images.githubusercontent.com/62079355/220893415-ea2015e9-6df6-4de2-ab66-041a3f890be2.png" width=25 height=25> the repo for more amazing stuff coming soon.
 
