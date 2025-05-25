@@ -1,9 +1,2 @@
-image: maven:3.9-eclipse-temurin-17
-
 tasks:
-  - init: mvn clean compile
-    command: mvn test -DsuiteXmlFile=testng.xml
-
-vscode:
-  extensions:
-    - vscjava.vscode-java-pack
+  - init: mvn compile
