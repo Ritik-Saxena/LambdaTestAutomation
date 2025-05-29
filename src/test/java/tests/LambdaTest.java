@@ -32,12 +32,12 @@ public class LambdaTest {
 	@BeforeMethod
 	@Parameters({"browserName", "browserVersion", "osName"})
 	public void setup(String browserName, String browserVersion, String osName) throws MalformedURLException {
-		String username = "ritiksaxenaofficial786";
-		String accessKey = "8AIB5nUjXNsi7mv4HGsLawVo1lUqbbJEM22cTedjCTKe2ICL5J";
+		String username = ""; // Put your username here
+		String accessKey = ""; // Put your access key here
 		
 		HashMap<String, Object> ltOptions = new HashMap<String, Object>();
-		ltOptions.put("username", "ritiksaxenaofficial786");
-		ltOptions.put("accessKey", "8AIB5nUjXNsi7mv4HGsLawVo1lUqbbJEM22cTedjCTKe2ICL5J");
+		ltOptions.put("username", username);
+		ltOptions.put("accessKey", accessKey);
 		ltOptions.put("visual", true);
 		ltOptions.put("video", true);
 		ltOptions.put("network", true);
