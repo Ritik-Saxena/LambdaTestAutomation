@@ -12,6 +12,14 @@ This project runs automated tests on LambdaTest's Selenium Grid using TestNG and
 
 ---
 
+## Project Preview
+
+<a href="https://youtu.be/EGa0P2XHvG0" target="_blank">
+  <img src="https://github.com/user-attachments/assets/93229b99-973e-45fb-bf42-70396ed36955" width="600" alt="Watch the video">
+</a>
+
+---
+
 ## 🔧 Configure your settings and required capabilities before running the test
 For running the test script, the username and access key from LambdaTest are required.
 
@@ -88,5 +96,6 @@ If you like this repository, do <img src="https://user-images.githubusercontent.
 [![GitHub followers](https://img.shields.io/github/followers/Ritik-Saxena?style=social)](https://github.com/Ritik-Saxena?tab=followers)
 [![GitHub forks](https://img.shields.io/github/forks/Ritik-Saxena/LambdaTestAutomation?style=social)](https://github.com/Ritik-Saxena/LambdaTestAutomation)
 [![GitHub watchers](https://img.shields.io/github/watchers/Ritik-Saxena/LambdaTestAutomation?style=social)](https://github.com/Ritik-Saxena/LambdaTestAutomation)
+
 
 
