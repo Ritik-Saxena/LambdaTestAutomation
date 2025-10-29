@@ -42,7 +42,8 @@ public class LambdaTest {
 		ltOptions.put("video", true);
 		ltOptions.put("network", true);
 		ltOptions.put("console", true);
-		ltOptions.put("project", "Untitled");
+		ltOptions.put("build", "LambdaTest Build");
+		ltOptions.put("project", "LambdaTest");
 		ltOptions.put("selenium_version", "4.0.0");
 		ltOptions.put("w3c", true);
 		
