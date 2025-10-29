@@ -14,11 +14,12 @@ This project runs automated tests on LambdaTest's Selenium Grid using TestNG and
 
 ## Project Preview
 
-<a href="https://youtu.be/EGa0P2XHvG0" target="_blank">
-  <img src="https://github.com/user-attachments/assets/93229b99-973e-45fb-bf42-70396ed36955" width="600" alt="Watch the video">
-</a>
+![LambdaTest - Preview](https://github.com/user-attachments/assets/7e5a22d6-9374-4caa-98bc-6000dc46538d)
+
 
 ---
+
+<br>
 
 ## 🔧 Configure your settings and required capabilities before running the test
 For running the test script, the username and access key from LambdaTest are required.
@@ -48,10 +49,10 @@ mvn test -DsuiteXmlFile=testng.xml
 ## 📊 To see the Test Results
 Once the test run is completed, visit the following URL to see the results: https://automation.lambdatest.com
 
-* Test run on Microsoft Edge (v127.0) with MacOS Ventura: <br>
+* Test run on Microsoft Edge (v127.0) with MacOS Ventura: <br> <br>
 ![image](https://github.com/user-attachments/assets/b0975503-f9a1-40ed-aa26-850e5617d54f)
 
-* Test run on Chrome (v128.0) with Windows 10: <br>
+* Test run on Chrome (v128.0) with Windows 10: <br> <br>
 ![image](https://github.com/user-attachments/assets/c521e8af-fbc2-40b9-bfc8-f6a5a237f577)
 
 ### Test IDs for both the runs:
@@ -96,6 +97,7 @@ If you like this repository, do <img src="https://user-images.githubusercontent.
 [![GitHub followers](https://img.shields.io/github/followers/Ritik-Saxena?style=social)](https://github.com/Ritik-Saxena?tab=followers)
 [![GitHub forks](https://img.shields.io/github/forks/Ritik-Saxena/LambdaTestAutomation?style=social)](https://github.com/Ritik-Saxena/LambdaTestAutomation)
 [![GitHub watchers](https://img.shields.io/github/watchers/Ritik-Saxena/LambdaTestAutomation?style=social)](https://github.com/Ritik-Saxena/LambdaTestAutomation)
+
 
 
 
